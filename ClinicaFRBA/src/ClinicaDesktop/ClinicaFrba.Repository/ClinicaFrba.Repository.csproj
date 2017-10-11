@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02A0ABB1-D312-414F-9073-0A822029C420}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClinicaFrba.Repository</RootNamespace>
+    <AssemblyName>ClinicaFrba.Repository</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AfiliadoDao.cs" />
+    <Compile Include="AsistenciaDao.cs" />
+    <Compile Include="BaseDao.cs" />
+    <Compile Include="ComboboxItem.cs" />
+    <Compile Include="Entities\AfiliadoHistoricoPlan.cs" />
+    <Compile Include="Entities\InfoParaListado.cs" />
+    <Compile Include="Entities\Profesional.cs" />
+    <Compile Include="Entities\TurnoCancelado.cs" />
+    <Compile Include="ListadoUsuarioDao.cs" />
+    <Compile Include="Entities\Bono.cs" />
+    <Compile Include="Entities\Agenda.cs" />
+    <Compile Include="Entities\Asistencia.cs" />
+    <Compile Include="Entities\Funcionalidad.cs" />
+    <Compile Include="Entities\Plan.cs" />
+    <Compile Include="Entities\Consulta.cs" />
+    <Compile Include="Entities\Rol.cs" />
+    <Compile Include="Entities\Turno.cs" />
+    <Compile Include="Entities\Especialidad.cs" />
+    <Compile Include="Entities\TurnoYUsuario.cs" />
+    <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="BonoDao.cs" />
+    <Compile Include="GD2C2016DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GD2C2016DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoEspecialidadesDao.cs" />
+    <Compile Include="LoginFunciones.cs" />
+    <Compile Include="PlanDao.cs" />
+    <Compile Include="ProfesionalDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RolFuncionalidadDao.cs" />
+    <Compile Include="TurnoDao.cs" />
+    <Compile Include="TurnoFunciones.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="GD2C2016DataSet.xsc">
+      <DependentUpon>GD2C2016DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GD2C2016DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GD2C2016DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GD2C2016DataSet.xss">
+      <DependentUpon>GD2C2016DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

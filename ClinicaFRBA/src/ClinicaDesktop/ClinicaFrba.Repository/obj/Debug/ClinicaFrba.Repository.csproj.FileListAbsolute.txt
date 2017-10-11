@@ -1,0 +1,12 @@
+C:\Users\Leandro\Source\Repos\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\bin\Debug\ClinicaFrba.Repository.dll.config
+C:\Users\Leandro\Source\Repos\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\bin\Debug\ClinicaFrba.Repository.dll
+C:\Users\Leandro\Source\Repos\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\bin\Debug\ClinicaFrba.Repository.pdb
+C:\Users\Leandro\Source\Repos\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\obj\Debug\ClinicaFrba.Repository.dll
+C:\Users\Leandro\Source\Repos\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\obj\Debug\ClinicaFrba.Repository.pdb
+C:\Users\Leandro\Source\Repos\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\obj\Debug\ClinicaFrba.Repository.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\bin\Debug\ClinicaFrba.Repository.dll.config
+C:\Users\user\Documents\GitHub\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\bin\Debug\ClinicaFrba.Repository.dll
+C:\Users\user\Documents\GitHub\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\bin\Debug\ClinicaFrba.Repository.pdb
+C:\Users\user\Documents\GitHub\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\obj\Debug\ClinicaFrba.Repository.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\obj\Debug\ClinicaFrba.Repository.dll
+C:\Users\user\Documents\GitHub\ClinicaFRBA\src\ClinicaDesktop\ClinicaFrba.Repository\obj\Debug\ClinicaFrba.Repository.pdb
